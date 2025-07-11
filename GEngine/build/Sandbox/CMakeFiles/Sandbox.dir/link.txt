@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Sandbox.dir/main.cpp.o -o Sandbox  ../GEngine/libGEngine.a 
