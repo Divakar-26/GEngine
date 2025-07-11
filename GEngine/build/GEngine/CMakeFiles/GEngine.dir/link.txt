@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGEngine.a CMakeFiles/GEngine.dir/src/Application.cpp.o CMakeFiles/GEngine.dir/src/Log.cpp.o
+/usr/bin/ranlib libGEngine.a

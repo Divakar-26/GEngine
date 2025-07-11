@@ -3,5 +3,7 @@ project(GEngine)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory(external/spdlog)
 add_subdirectory(GEngine)
 add_subdirectory(Sandbox)
+

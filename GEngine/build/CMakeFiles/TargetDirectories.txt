@@ -1,0 +1,11 @@
+/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles/edit_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles/rebuild_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/external/spdlog/CMakeFiles/spdlog.dir
+/home/divakar/Desktop/GEngine/GEngine/build/external/spdlog/CMakeFiles/edit_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/external/spdlog/CMakeFiles/rebuild_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir
+/home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/edit_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/rebuild_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/Sandbox/CMakeFiles/Sandbox.dir
+/home/divakar/Desktop/GEngine/GEngine/build/Sandbox/CMakeFiles/edit_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/Sandbox/CMakeFiles/rebuild_cache.dir
