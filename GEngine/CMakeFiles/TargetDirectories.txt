@@ -1,8 +1,0 @@
-/home/divakar/Desktop/GEngine/GEngine/CMakeFiles/edit_cache.dir
-/home/divakar/Desktop/GEngine/GEngine/CMakeFiles/rebuild_cache.dir
-/home/divakar/Desktop/GEngine/GEngine/GEngine/CMakeFiles/GEngine.dir
-/home/divakar/Desktop/GEngine/GEngine/GEngine/CMakeFiles/edit_cache.dir
-/home/divakar/Desktop/GEngine/GEngine/GEngine/CMakeFiles/rebuild_cache.dir
-/home/divakar/Desktop/GEngine/GEngine/Sandbox/CMakeFiles/Sandbox.dir
-/home/divakar/Desktop/GEngine/GEngine/Sandbox/CMakeFiles/edit_cache.dir
-/home/divakar/Desktop/GEngine/GEngine/Sandbox/CMakeFiles/rebuild_cache.dir
