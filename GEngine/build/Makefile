@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/divakar/Desktop/GEngine
+CMAKE_SOURCE_DIR = /home/divakar/Desktop/GEngine/GEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/divakar/Desktop/GEngine/GEngine
+CMAKE_BINARY_DIR = /home/divakar/Desktop/GEngine/GEngine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/divakar/Desktop/GEngine/GEngine && $(CMAKE_COMMAND) -E cmake_progress_start /home/divakar/Desktop/GEngine/GEngine/CMakeFiles /home/divakar/Desktop/GEngine/GEngine/GEngine//CMakeFiles/progress.marks
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GEngine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/divakar/Desktop/GEngine/GEngine/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles /home/divakar/Desktop/GEngine/GEngine/build//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GEngine/clean
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,44 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GEngine/preinstall
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GEngine/preinstall
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-GEngine/CMakeFiles/GEngine.dir/rule:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GEngine/CMakeFiles/GEngine.dir/rule
-.PHONY : GEngine/CMakeFiles/GEngine.dir/rule
+#=============================================================================
+# Target rules for targets named GEngine
 
-# Convenience name for target.
-GEngine: GEngine/CMakeFiles/GEngine.dir/rule
+# Build rule for target.
+GEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GEngine
 .PHONY : GEngine
 
 # fast build rule for target.
 GEngine/fast:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/build
+	$(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/build
 .PHONY : GEngine/fast
 
-GEngine.o: GEngine.cpp.o
-.PHONY : GEngine.o
+#=============================================================================
+# Target rules for targets named Sandbox
 
-# target to build an object file
-GEngine.cpp.o:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/GEngine.cpp.o
-.PHONY : GEngine.cpp.o
+# Build rule for target.
+Sandbox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox
+.PHONY : Sandbox
 
-GEngine.i: GEngine.cpp.i
-.PHONY : GEngine.i
-
-# target to preprocess a source file
-GEngine.cpp.i:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/GEngine.cpp.i
-.PHONY : GEngine.cpp.i
-
-GEngine.s: GEngine.cpp.s
-.PHONY : GEngine.s
-
-# target to generate assembly for a file
-GEngine.cpp.s:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/GEngine.cpp.s
-.PHONY : GEngine.cpp.s
+# fast build rule for target.
+Sandbox/fast:
+	$(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/Sandbox.dir/build.make Sandbox/CMakeFiles/Sandbox.dir/build
+.PHONY : Sandbox/fast
 
 # Help Target
 help:
@@ -163,9 +151,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GEngine"
-	@echo "... GEngine.o"
-	@echo "... GEngine.i"
-	@echo "... GEngine.s"
+	@echo "... Sandbox"
 .PHONY : help
 
 
@@ -177,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/divakar/Desktop/GEngine/GEngine && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

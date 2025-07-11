@@ -1,6 +1,7 @@
-add_library(GEngine
-    GEngine.cpp
-    GEngine.h
-)
+cmake_minimum_required(VERSION 3.10)
+project(GEngine)
 
-target_include_directories(GEngine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_CXX_STANDARD 17)
+
+add_subdirectory(GEngine)
+add_subdirectory(Sandbox)

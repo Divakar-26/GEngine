@@ -1,7 +1,7 @@
 GEngine/CMakeFiles/GEngine.dir/GEngine.cpp.o: \
- /home/divakar/Desktop/GEngine/GEngine/GEngine.cpp \
+ /home/divakar/Desktop/GEngine/GEngine/GEngine/GEngine.cpp \
  /usr/include/stdc-predef.h \
- /home/divakar/Desktop/GEngine/GEngine/GEngine.h \
+ /home/divakar/Desktop/GEngine/GEngine/GEngine/GEngine.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
