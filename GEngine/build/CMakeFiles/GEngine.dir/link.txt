@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGEngine.a CMakeFiles/GEngine.dir/GEngine.o
+/usr/bin/ranlib libGEngine.a

@@ -1,0 +1,3 @@
+/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles/GEngine.dir
+/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles/edit_cache.dir
+/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles/rebuild_cache.dir
