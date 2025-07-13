@@ -45,6 +45,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/divakar/Desktop/GEngine/GEngine/build/external/spdlog/cmake_install.cmake")
+  include("/home/divakar/Desktop/GEngine/GEngine/build/external/glfw/cmake_install.cmake")
   include("/home/divakar/Desktop/GEngine/GEngine/build/GEngine/cmake_install.cmake")
   include("/home/divakar/Desktop/GEngine/GEngine/build/Sandbox/cmake_install.cmake")
 

@@ -1,7 +1,11 @@
 #pragma once
+
+#include"gepch.h"
+
 #include "Application.h"
 #include "Log.h"
-#include <iostream>
+
+
 
 extern GEngine::Application *GEngine::createApplication();
 

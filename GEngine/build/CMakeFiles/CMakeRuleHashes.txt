@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+50a39ac921313b502101fbe3048e14f0 external/glfw/CMakeFiles/uninstall
+ad078502fd94791c9445bdabb14f9c9f external/glfw/src/CMakeFiles/update_mappings
+c4c041dabb033bec419ab129f231818b external/glfw/src/fractional-scale-v1-client-protocol-code.h
+d5f8970e053af4f61ececcb86b0fa43f external/glfw/src/fractional-scale-v1-client-protocol.h
+4f9aab2cffc8b656524dcf4a0fae0f89 external/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
+50e4aae9534d665f38910a0f941a44ad external/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
+7a37fa98b77982393f2f36dd847682db external/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
+23d0b89fbc0c9e8231ce7b5c5398c45f external/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
+9e15e142aee89fec99b5cb3f3fc89318 external/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
+649e170e20f320c689e4a74e35b611cb external/glfw/src/relative-pointer-unstable-v1-client-protocol.h
+7ee97ac5d66ff1b6eed9c4ba64339458 external/glfw/src/viewporter-client-protocol-code.h
+9341e5b91231719646eb7877ae928d2f external/glfw/src/viewporter-client-protocol.h
+314e892c0bc9401d302e1746fa27b27c external/glfw/src/wayland-client-protocol-code.h
+cdd90978be05ac0ff59f3dc74a632d91 external/glfw/src/wayland-client-protocol.h
+934cc0d4b56cfe0995bbbe83e92b5518 external/glfw/src/xdg-activation-v1-client-protocol-code.h
+4f94bd0106b0728645acdcd3d85474b6 external/glfw/src/xdg-activation-v1-client-protocol.h
+51ad0634512bbb8f965f84d8cb5c1b38 external/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
+7e5e27351faaf4fcdfd8ef674cc731c4 external/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
+2ea520c18999bb8ee39365e56666ad84 external/glfw/src/xdg-shell-client-protocol-code.h
+c6b454d926cc36ad27353b2392b594cb external/glfw/src/xdg-shell-client-protocol.h

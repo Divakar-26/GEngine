@@ -94,6 +94,9 @@ Sandbox/Sandbox: Sandbox/CMakeFiles/Sandbox.dir/SandboxApp.cpp.o
 Sandbox/Sandbox: Sandbox/CMakeFiles/Sandbox.dir/build.make
 Sandbox/Sandbox: GEngine/libGEngine.a
 Sandbox/Sandbox: external/spdlog/libspdlog.a
+Sandbox/Sandbox: external/glfw/src/libglfw3.a
+Sandbox/Sandbox: /usr/lib/x86_64-linux-gnu/librt.a
+Sandbox/Sandbox: /usr/lib/x86_64-linux-gnu/libm.so
 Sandbox/Sandbox: Sandbox/CMakeFiles/Sandbox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sandbox"
 	cd /home/divakar/Desktop/GEngine/GEngine/build/Sandbox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sandbox.dir/link.txt --verbose=$(VERBOSE)

@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Sandbox.dir/SandboxApp.cpp.o -o Sandbox  ../GEngine/libGEngine.a ../external/spdlog/libspdlog.a 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Sandbox.dir/SandboxApp.cpp.o -o Sandbox  ../GEngine/libGEngine.a ../external/spdlog/libspdlog.a ../external/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

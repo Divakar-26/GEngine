@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/divakar/Desktop/GEngine/GEngine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles /home/divakar/Desktop/GEngine/GEngine/build/GEngine//CMakeFiles/progress.marks
@@ -129,6 +174,21 @@ GEngine: GEngine/CMakeFiles/GEngine.dir/rule
 GEngine/fast:
 	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/build
 .PHONY : GEngine/fast
+
+# target to build an object file
+cmake_pch.hxx.gch:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch
+.PHONY : cmake_pch.hxx.gch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
 
 src/Application.o: src/Application.cpp.o
 .PHONY : src/Application.o
@@ -178,6 +238,54 @@ src/Log.cpp.s:
 	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.s
 .PHONY : src/Log.cpp.s
 
+src/Platform/Linux/LinuxWindow.o: src/Platform/Linux/LinuxWindow.cpp.o
+.PHONY : src/Platform/Linux/LinuxWindow.o
+
+# target to build an object file
+src/Platform/Linux/LinuxWindow.cpp.o:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o
+.PHONY : src/Platform/Linux/LinuxWindow.cpp.o
+
+src/Platform/Linux/LinuxWindow.i: src/Platform/Linux/LinuxWindow.cpp.i
+.PHONY : src/Platform/Linux/LinuxWindow.i
+
+# target to preprocess a source file
+src/Platform/Linux/LinuxWindow.cpp.i:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.i
+.PHONY : src/Platform/Linux/LinuxWindow.cpp.i
+
+src/Platform/Linux/LinuxWindow.s: src/Platform/Linux/LinuxWindow.cpp.s
+.PHONY : src/Platform/Linux/LinuxWindow.s
+
+# target to generate assembly for a file
+src/Platform/Linux/LinuxWindow.cpp.s:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.s
+.PHONY : src/Platform/Linux/LinuxWindow.cpp.s
+
+src/gepch.o: src/gepch.cpp.o
+.PHONY : src/gepch.o
+
+# target to build an object file
+src/gepch.cpp.o:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o
+.PHONY : src/gepch.cpp.o
+
+src/gepch.i: src/gepch.cpp.i
+.PHONY : src/gepch.i
+
+# target to preprocess a source file
+src/gepch.cpp.i:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.i
+.PHONY : src/gepch.cpp.i
+
+src/gepch.s: src/gepch.cpp.s
+.PHONY : src/gepch.s
+
+# target to generate assembly for a file
+src/gepch.cpp.s:
+	cd /home/divakar/Desktop/GEngine/GEngine/build && $(MAKE) $(MAKESILENT) -f GEngine/CMakeFiles/GEngine.dir/build.make GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.s
+.PHONY : src/gepch.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,14 +293,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... GEngine"
+	@echo "... cmake_pch.hxx.gch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
 	@echo "... src/Log.o"
 	@echo "... src/Log.i"
 	@echo "... src/Log.s"
+	@echo "... src/Platform/Linux/LinuxWindow.o"
+	@echo "... src/Platform/Linux/LinuxWindow.i"
+	@echo "... src/Platform/Linux/LinuxWindow.s"
+	@echo "... src/gepch.o"
+	@echo "... src/gepch.i"
+	@echo "... src/gepch.s"
 .PHONY : help
 
 

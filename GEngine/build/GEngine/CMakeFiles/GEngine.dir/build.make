@@ -69,47 +69,103 @@ include GEngine/CMakeFiles/GEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include GEngine/CMakeFiles/GEngine.dir/flags.make
 
+GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch: GEngine/CMakeFiles/GEngine.dir/flags.make
+GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.cxx
+GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx
+GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch: GEngine/CMakeFiles/GEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -MD -MT GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch -MF CMakeFiles/GEngine.dir/cmake_pch.hxx.gch.d -o CMakeFiles/GEngine.dir/cmake_pch.hxx.gch -c /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.cxx
+
+GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GEngine.dir/cmake_pch.hxx.i"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -E /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.cxx > CMakeFiles/GEngine.dir/cmake_pch.hxx.i
+
+GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEngine.dir/cmake_pch.hxx.s"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -S /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.cxx -o CMakeFiles/GEngine.dir/cmake_pch.hxx.s
+
 GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o: GEngine/CMakeFiles/GEngine.dir/flags.make
 GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o: /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Application.cpp
+GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx
+GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch
 GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o: GEngine/CMakeFiles/GEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o"
-	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o -MF CMakeFiles/GEngine.dir/src/Application.cpp.o.d -o CMakeFiles/GEngine.dir/src/Application.cpp.o -c /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -MD -MT GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o -MF CMakeFiles/GEngine.dir/src/Application.cpp.o.d -o CMakeFiles/GEngine.dir/src/Application.cpp.o -c /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Application.cpp
 
 GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GEngine.dir/src/Application.cpp.i"
-	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Application.cpp > CMakeFiles/GEngine.dir/src/Application.cpp.i
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -E /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Application.cpp > CMakeFiles/GEngine.dir/src/Application.cpp.i
 
 GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEngine.dir/src/Application.cpp.s"
-	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Application.cpp -o CMakeFiles/GEngine.dir/src/Application.cpp.s
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -S /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Application.cpp -o CMakeFiles/GEngine.dir/src/Application.cpp.s
 
 GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o: GEngine/CMakeFiles/GEngine.dir/flags.make
 GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o: /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Log.cpp
+GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx
+GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch
 GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o: GEngine/CMakeFiles/GEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o"
-	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o -MF CMakeFiles/GEngine.dir/src/Log.cpp.o.d -o CMakeFiles/GEngine.dir/src/Log.cpp.o -c /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -MD -MT GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o -MF CMakeFiles/GEngine.dir/src/Log.cpp.o.d -o CMakeFiles/GEngine.dir/src/Log.cpp.o -c /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Log.cpp
 
 GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GEngine.dir/src/Log.cpp.i"
-	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Log.cpp > CMakeFiles/GEngine.dir/src/Log.cpp.i
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -E /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Log.cpp > CMakeFiles/GEngine.dir/src/Log.cpp.i
 
 GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEngine.dir/src/Log.cpp.s"
-	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Log.cpp -o CMakeFiles/GEngine.dir/src/Log.cpp.s
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -S /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Log.cpp -o CMakeFiles/GEngine.dir/src/Log.cpp.s
+
+GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o: GEngine/CMakeFiles/GEngine.dir/flags.make
+GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o: /home/divakar/Desktop/GEngine/GEngine/GEngine/src/gepch.cpp
+GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx
+GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch
+GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o: GEngine/CMakeFiles/GEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -MD -MT GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o -MF CMakeFiles/GEngine.dir/src/gepch.cpp.o.d -o CMakeFiles/GEngine.dir/src/gepch.cpp.o -c /home/divakar/Desktop/GEngine/GEngine/GEngine/src/gepch.cpp
+
+GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GEngine.dir/src/gepch.cpp.i"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -E /home/divakar/Desktop/GEngine/GEngine/GEngine/src/gepch.cpp > CMakeFiles/GEngine.dir/src/gepch.cpp.i
+
+GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEngine.dir/src/gepch.cpp.s"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -S /home/divakar/Desktop/GEngine/GEngine/GEngine/src/gepch.cpp -o CMakeFiles/GEngine.dir/src/gepch.cpp.s
+
+GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o: GEngine/CMakeFiles/GEngine.dir/flags.make
+GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o: /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Platform/Linux/LinuxWindow.cpp
+GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx
+GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch
+GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o: GEngine/CMakeFiles/GEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -MD -MT GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o -MF CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o.d -o CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o -c /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Platform/Linux/LinuxWindow.cpp
+
+GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.i"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -E /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Platform/Linux/LinuxWindow.cpp > CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.i
+
+GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.s"
+	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/divakar/Desktop/GEngine/GEngine/build/GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx -S /home/divakar/Desktop/GEngine/GEngine/GEngine/src/Platform/Linux/LinuxWindow.cpp -o CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.s
 
 # Object files for target GEngine
 GEngine_OBJECTS = \
 "CMakeFiles/GEngine.dir/src/Application.cpp.o" \
-"CMakeFiles/GEngine.dir/src/Log.cpp.o"
+"CMakeFiles/GEngine.dir/src/Log.cpp.o" \
+"CMakeFiles/GEngine.dir/src/gepch.cpp.o" \
+"CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o"
 
 # External object files for target GEngine
 GEngine_EXTERNAL_OBJECTS =
 
+GEngine/libGEngine.a: GEngine/CMakeFiles/GEngine.dir/cmake_pch.hxx.gch
 GEngine/libGEngine.a: GEngine/CMakeFiles/GEngine.dir/src/Application.cpp.o
 GEngine/libGEngine.a: GEngine/CMakeFiles/GEngine.dir/src/Log.cpp.o
+GEngine/libGEngine.a: GEngine/CMakeFiles/GEngine.dir/src/gepch.cpp.o
+GEngine/libGEngine.a: GEngine/CMakeFiles/GEngine.dir/src/Platform/Linux/LinuxWindow.cpp.o
 GEngine/libGEngine.a: GEngine/CMakeFiles/GEngine.dir/build.make
 GEngine/libGEngine.a: GEngine/CMakeFiles/GEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libGEngine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/divakar/Desktop/GEngine/GEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libGEngine.a"
 	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && $(CMAKE_COMMAND) -P CMakeFiles/GEngine.dir/cmake_clean_target.cmake
 	cd /home/divakar/Desktop/GEngine/GEngine/build/GEngine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GEngine.dir/link.txt --verbose=$(VERBOSE)
 
